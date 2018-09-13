@@ -1,6 +1,6 @@
-// Initial array of movies
+// Initial array of kid tv shows
 var topics = ["true and the rainbow kingdom", "daniel tiger's neighborhood", "peppa pig", "spongebob", "dc superhero girls", "adventure time", "miraculous: tales of ladybug & cat noir"];
-// Function for displaying movie data
+
 function renderButtons() {
   $("#buttonsArea").empty();
 
@@ -68,7 +68,7 @@ if (!topics.includes(newShow)) {
   
 });
 
-//listens for a click of any button with an id of gif-btn, then performs the displayGif function
+//listens for a click of any button with a class of tv-btn, then performs the displayGif function
 $(document).on("click", "#tv-btn", displayGifs);
 
 //starts and stops the animated gif 
