@@ -1,0 +1,56 @@
+/*CLASSES*/
+.background {
+    background-image: url("../images/kids\ show.jpg") ;
+    background-size: 40%;    
+    background-position: center;
+    background-blend-mode: multiply;  
+    margin-top: 20px;  
+    background-color: rgba(0,0,0,0.5);
+}
+.header-text {
+    font-size: 25px;
+}
+.tv-input{
+    text-align: center;
+}
+.btn {
+    margin: auto 20px;
+    height: 30px;
+    font-size: 13px; 
+
+}
+.btn-outline-info {
+    margin: 5px;
+    text-align: center;
+}
+.gif {
+    padding-left: 10px;    
+}
+
+/*DIVS*/
+
+h1 {
+    font-size: 75px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: white;
+}
+p {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 15px;
+    text-align: center;
+}
+
+/*IDs*/
+#userInput {
+    font-size: 12px;
+    width: 250px;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+#buttonsArea {
+    padding-top: 15px;
+}
+
