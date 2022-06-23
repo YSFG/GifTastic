@@ -3,8 +3,7 @@
     background-image: url("../images/kids\ show.jpg") ;
     background-size: 40%;    
     background-position: center;
-    background-blend-mode: multiply;  
-    margin-top: 20px;  
+    background-blend-mode: multiply;    
     background-color: rgba(0,0,0,0.5);
 }
 .header-text {
